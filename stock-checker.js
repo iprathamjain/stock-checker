@@ -31,12 +31,12 @@ const checkStock = async () => {
       );
     } else {
       console.log("🔴 Watch is OUT OF STOCK.");
-      await fetch(
-        `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=🔴 Watch is OUT OF STOCK 😢`,
-        {
-          method: "POST",
-        }
-      );
+      // await fetch(
+      //   `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=🔴 Watch is OUT OF STOCK 😢`,
+      //   {
+      //     method: "POST",
+      //   }
+      // );
     }
   } catch (error) {
     console.error("Error:", error);
