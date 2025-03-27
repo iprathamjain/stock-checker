@@ -1,0 +1,11 @@
+{
+  "name": "stock-checker",
+  "version": "1.0.0",
+  "main": "stock-checker.js",
+  "scripts": {
+    "start": "node stock-checker.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
